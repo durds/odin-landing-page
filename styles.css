@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    color: #f9faf8;
+}
+
+.header-links ul {
+    display: flex;
+}
+
+.header-links ul li {
+    margin-right: 24px;
+}
+
+.header-links ul li a {
+    color: #e5e7Eb;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+.hero-left-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.hero-left-column h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+
+}
+
+.hero-left-column p {
+    font-size: 16px;
+    color: #e5e7Eb;
+}
+
+.hero-left-column .button {
+    display: inline;
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 24px;
+    border-radius: 10px;
+}
+
+.hero-right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    flex: 1;
+}
+
+/* RANDOM SECTION */
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 64px;
+
+}
+
+.random-info-header {
+    font-size: 35px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.random-info-cards {
+    display: flex;
+
+}
+
+.random-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    width: 128px;
+    height: 128px;
+    border-color: #3882f6;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+/* QUOTE section */
+
+.quote-section {
+    background-color: #e5e7Eb;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+/* CALL TO ACTION Section */
+
+.call-to-action-section {
+    padding: 64px;
+
+}
+
+.cta-bar {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0;
+    border-radius: 10px;
+}
+
+.cta-text-header {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.cta-text-content {
+    color: #e5e7Eb;
+
+}
+
+.cta-button {
+    display: inline;
+    border: 2px solid whitesmoke;
+    padding: 4px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7Eb;
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+}
